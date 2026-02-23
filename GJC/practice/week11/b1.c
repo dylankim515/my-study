@@ -23,6 +23,13 @@ int main()
     *p4 +=1;
 
     printf("a : %c \n",a);
-    printf("address a: %u")
+    printf("address a: %u, value p1: %u\n",&a,p1);
+    printf("b : %d \n",b);
+    printf("address b: %u, value p2: %u\n",&b,p2);
+    printf("c : %f \n",c);
+    printf("address c: %u, value p3: %u\n",&c,p3);
+    printf("d : %lf \n",d);
+    printf("address d: %u, value p4: %u\n",&d,p4);
 
+    return 0;
 }
